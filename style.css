@@ -3,12 +3,12 @@
   padding: 0;
 }
 header {
-  background-color: rgb(73, 1, 1);
+  background-color: rgb(247, 10, 10);
   color: white;
 }
 
 .cabecalho {
-  background-color: rgb(73, 1, 1);
+  background-color: rgb(4, 0, 255);
   color: white;
   display: flex;
   justify-content: space-around;
@@ -28,4 +28,15 @@ header {
   display: inline-block;
   margin: 0 16px;
   font-size: 24px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola {
+  background-image: linear-gradient (rgb(247, 10, 10),rgb(4, 0, 255)
+  color: white;
+  
+  
 }
