@@ -2,13 +2,19 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  font-family: 'Mukta Malar' ,  sans-serif ;
+
+}
+
 header {
-  background-color: rgb(247, 10, 10);
+  background-color: #424E61;
   color: white;
 }
 
 .cabecalho {
-  background-color: rgb(4, 0, 255);
+  background-color: #424E61;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -16,27 +22,33 @@ header {
   padding: 24px 0;
 }
 
+.cabecalho-imagem {
+  width: 20%;
+}
 
 .cabecalho-lista-item {
-
-
-  .cabecalho-imagem{
-      width: 20%;
-
-  }
-
   display: inline-block;
   margin: 0 16px;
   font-size: 24px;
 }
 
-.escola-imagem{
-    width: 25%;
+.escola-imagem {
+  width: 25%;
 }
 
 .escola {
-  background-image: linear-gradient (rgb(247, 10, 10),rgb(4, 0, 255)
+  background-image: linear-gradient(#424E61, #4EBFE9);
   color: white;
-  
-  
+  display: flex;
+    justify-content: center;
+    align-items: center:
+    padding:24px 0:
 }
+
+.escola-div-conteudo {
+    whidth; 35%;
+}
+
+  .escola-titulo {
+        padding: 24px 0;
+  }
