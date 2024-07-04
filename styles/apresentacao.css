@@ -8,12 +8,12 @@ body {
 }
 
 header {
-  background-color: #0f213d;
+  background-color: #1a40ecea;
   color: white;
 }
 
 .cabecalho {
-  background-color: #10203b;
+  background-color: #105ee4;
   color: white;
   display: flex;
   justify-content: space-around;
