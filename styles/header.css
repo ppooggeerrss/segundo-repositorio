@@ -59,88 +59,86 @@
 }
 
 .container-titulo {
-   display: none
+    display: none;
 }
 
 .menu__lista-item {
-background: var(--cor-principal) 
-color: var(--rosa);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
- backgroung-clip: text;
- text-tranform: uppercase;
+    background: var(--cor-principal);
+    color: var(--laranja);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
 
 .opcoes {
-     display: none;
+    display: none;
 }
 
-.container__texto{
+.container__texto {
     display: none;
 }
 
 @media screen and (min-width: 1024px) {
-  .container-titulo {
-    display: block;
-    font-family: var(--fonte-principal);
-    font-weight: 400;
-    font-size: 30px;
-  } 
-    
-.cabecalho__menu{ 
-    display: none;
-}
+    .container-titulo{
+        display: block;
+        font-family: var(--fonte-principal);
+        font-weight: 400;
+        font-size: 30px;
+    }
 
-.cabecalho__favorito{
-    display: none;
-}
+    .cabecalho__menu{
+        display: none;
+    }
 
-.opcoes{
-    display: flex;
-}
+    .cabecalho__favorito {
+        display: none;
+    }
 
-.opcoes__item{
-    padding: 0 2em;
-    text-transform: uppercase;
-    color: var(--branco);
-}
-.opcoes__link{
-    text-decoration: none;
-    color: var(--branco);
-}
+    .opcoes {
+        display: flex;
+    }
 
-.opcoes__botao:checked~.cabecalho-lista{
+    .opcoes__item{
+        padding: 0 2em;
+        text-transform: uppercase;
+        color: var(--branco);
+    }
 
-display: block;
-width: auto;
-}
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--branco);
+    }
 
-.opcoes__botao{
-    display: none;
-}
-    
+    .opcoes__botao:checked~.cabecalho-lista{
+        display: block;
+        width: auto;
+    }
 
+    .opcoes__botao{
+        display:none;
+    }
 
 }
 
-    @media screen and (min-width: 1728px){
-     .container__link{
+@media screen and (min-width: 1728px){
+    .container__link {
         display: flex;
         align-items: center;
         text-decoration: none;
         color: var(--branco);
-     }
-
-     .cabecalho {
-        padding: 0 2em;
-     }
-
-     .opcoes{
-        margin-right: auto;
-     }
-      
-     .container__texto{
-        display: block;
-     }
     }
-   
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
+    }
+
+}
