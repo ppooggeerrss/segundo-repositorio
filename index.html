@@ -6,6 +6,16 @@
         <title>Página principal</title>
         
           <link rel="stylesheet" href="reset.css">
+
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+          <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="styles/apresentacao.css">
     </head>
@@ -81,6 +91,34 @@
 
         </section>
 
+         <section class="carrossel">
+            <h2 class="carrossel__titulo">nossos serviços</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/1000_F_171466848_ODHI3GL7XWtfUseUJPBJcuB6ZaOba82p.png" alt="desenvolvedor 5"></div>
+                <div class="swiper-slide"><img src="./img/i-gamedev.png" alt="game dev"></div>
+                <div class="swiper-slide"><img src="./img/images (1).png" alt="desenvolvedor 6"></div>
+                <div class="swiper-slide"><img src="./img/images-_2_.png" alt="desenvolvedor 4"></div>
+                <div class="swiper-slide"><img src="./img/1_1920x1280.png" alt="desenvolvedor3"></div>
+                <div class="swiper-slide"><img src="./img/18-captivating-facts-about-video-game-developer-1695706404.png" alt="desenvolvedor1"></div><div class="swiper-slide"><img src="./img/Max-Trest-Astrolander-pic1.png" alt="desenvolvedor 2"></div>
+                 ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+            </div>
+  
+         </section>
+
         <section class="estudante">
             <h2 class="estudante-titulo">Quem sou</h2>
             <div class="estudante-div">
@@ -97,6 +135,7 @@
             <img src="img/alurastart_logo.png" alt="logo da alura" class="rodape-imagem">
         </footer>
        
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
        
     </body>
