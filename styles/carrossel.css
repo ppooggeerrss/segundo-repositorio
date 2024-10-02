@@ -52,7 +52,7 @@
 }
 
 .descricao__titulo-produto {
-  color: var( --cor-preto);
+  color: var( --cor-rosa);
   font-size: 18px;
   font-weight: 700;
   margin: 0.5em 0;
@@ -63,7 +63,7 @@
 }
 
 .botoes__ancora {
-  background-color: var( --cor-rosa);
+  background-color: var(--cor-rosa);
   padding: 1em 2.2em;
   color: var(--cor-escrita);
   font-weight: 700;
