@@ -63,6 +63,10 @@
   font-size: 14px;
 }
 
+.descricao__imagem{
+  width: 42%;
+}
+
 .botoes__ancora {
   background-color: var(--cor-botao-);
   padding: 1em 2.2em;
