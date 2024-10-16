@@ -76,6 +76,7 @@
   text-decoration: none;
 }
   .botoes__item {
+    list-style-type: none;
     margin: 0 0.5em;
     color: var(--cor-botao);
   }

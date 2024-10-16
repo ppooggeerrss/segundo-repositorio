@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: var(--cor-preto);
+    background-color: var(--cor-principal);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,6 +101,7 @@
     }
 
     .opcoes__item{
+        list-style-type: none;
         padding: 0 2em;
         text-transform: uppercase;
         color: var(--branco);
