@@ -6,7 +6,7 @@
     display: flex;
 }
 
-.class{
+.cartao{
     margin: 1rem 1rem;
     background-color: var(--cor-botao);
     height: 20rem;
