@@ -21,6 +21,15 @@ cartao.innerHTML = `
             
             </div>
 `
+let respostaEstaVisivel = false;
+
+function viraCartao() {
+    respostaEstaVisivel = !variavelEstaViivel; 
+    cartao.classList.toggle ('active', viraCartao);
+}
+
+cartao.addEventListener('click', viraCartao);
+
 flashcard.appendChield(cartao);
 
 }
