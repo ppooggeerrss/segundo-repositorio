@@ -30,6 +30,6 @@ function viraCartao() {
 
 cartao.addEventListener('click', viraCartao);
 
-flashcard.appendChield(cartao);
+flashcard.appendChild(cartao);
 
 }
