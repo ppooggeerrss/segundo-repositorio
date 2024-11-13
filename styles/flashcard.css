@@ -1,5 +1,5 @@
 #flashcard {
-    background-color: var(--cor-rosa);
+    background-color: var(--cor-laranja);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,7 +27,7 @@
 }
 
 .cartao__conteudo h3 {
-    background-color: var(--cor-principal);
+    background-color: var(--cor-fundo);
     color: var(--cor-branco);
     border: 1px solid var(--cor-branco);
     text-align: center;
