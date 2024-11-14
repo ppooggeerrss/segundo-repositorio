@@ -27,7 +27,7 @@
 }
 
 .cartao__conteudo h3 {
-    background-color: var(--cor-botao);
+    background-color: var(--cor-pretoalt 15);
     color: var(--cor-branco);
     border: 1px solid var(--cor-botao);
     text-align: center;
