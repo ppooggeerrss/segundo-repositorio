@@ -31,7 +31,7 @@ main {
 
 .cabecalho-imagem{
     padding: 1em;
-    
+    width: 40px;
 }
 
 .container__imagem{
@@ -141,7 +141,6 @@ main {
         align-items: center;
         text-decoration: none;
         color: var(--branco);
-        margin-right: 10px;
     }
 
     .cabecalho {
