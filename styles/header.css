@@ -1,3 +1,7 @@
+main {
+    margin-top: 60px;
+}
+
 .cabecalho {
     background-color: var(--cor-principal);
     display: flex;
@@ -27,7 +31,7 @@
 
 .cabecalho-imagem{
     padding: 1em;
-    width: 40px;
+    
 }
 
 .container__imagem{
@@ -137,6 +141,7 @@
         align-items: center;
         text-decoration: none;
         color: var(--branco);
+        margin-right: 10px;
     }
 
     .cabecalho {
